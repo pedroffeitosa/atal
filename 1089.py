@@ -41,19 +41,4 @@ while aux == True:
         print(count+1)                
 
 
-# while True:
-#     pontos = int(input())
-    
-#     if pontos == 0:
-#         break
-    
-#     arr_pontos = [int(x) for x in input().split()]
-#     arr_pontos.append(arr_pontos[0])
-#     arr_pontos.append(arr_pontos[1])
-#     picos = 0
-#     for i in range(1, pontos+1):
-#         if arr_pontos[i] < arr_pontos[i-1] and arr_pontos[i] < arr_pontos[i+1]:
-#             picos += 1
-#         elif arr_pontos[i] > arr_pontos[i-1] and arr_pontos[i] > arr_pontos[i+1]:
-#             picos += 1
-#     print(picos)
+
